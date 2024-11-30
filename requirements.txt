@@ -11,4 +11,4 @@ chromadb
 sentence_transformers
 duckduckgo-search
 streamlit==1.31.0
-langgraph-checkpoint
+langgraph-checkpoint-sqlite
