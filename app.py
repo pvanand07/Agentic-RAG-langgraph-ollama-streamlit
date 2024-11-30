@@ -20,9 +20,8 @@ import asyncio
 
 tools = [retrieve, web_search]
 
-llm = ChatOllama(
-    model="llama3.1",
-    temperature=0,
+llm = ChatOpenAI(
+    model="gpt-4o-mini",
     stream=True
 )
 
